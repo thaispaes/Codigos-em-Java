@@ -10,6 +10,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDate;
 
+import static org.mockito.ArgumentMatchers.anyString;
+
 @ExtendWith(MockitoExtension.class)
 public class MockObjetos {
 
@@ -23,7 +25,9 @@ public class MockObjetos {
     void validarCadastro() {
         DadosLocalizacao dadosLocalizacao = new DadosLocalizacao("PE", "Recife", "Rua 1",
                 "Casa", "Encruzilhada");
-        Mockito.when(apidosCorreios.buscaDadosComBaseNoCep("52041050")).thenReturn(dadosLocalizacao);
+
+        Mockito.when(apidosCorreios.buscaDadosComBaseNoCep(anyString())).thenReturn(dadosLocalizacao);
+
         Pessoa thais = cadastrarPessoa.cadastrarPessoa("Thais", "52041050",
                 LocalDate.of(2002,02,04), "56450-905");
 
