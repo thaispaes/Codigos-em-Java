@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="curso.dio.junit.AssumptionsTestes" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-12T00:57:38" hostname="DESKTOP-MT51TTN" time="0.023">
-  <properties/>
-  <testcase name="validarAlgoNoUserThais()" classname="curso.dio.junit.AssumptionsTestes" time="0.023"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

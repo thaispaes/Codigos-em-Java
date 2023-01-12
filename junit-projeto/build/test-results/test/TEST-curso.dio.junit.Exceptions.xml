@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="curso.dio.junit.Exceptions" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-12T01:18:53" hostname="DESKTOP-MT51TTN" time="0.024">
+  <properties/>
+  <testcase name="validarCenario()" classname="curso.dio.junit.Exceptions" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
