@@ -1,5 +1,7 @@
 package curso.dio.mockito;
 
+import java.time.LocalDate;
+
 public class CadastrarPessoa {
     private ApiDosCorreios apiDosCorreios;
 
