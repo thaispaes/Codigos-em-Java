@@ -3,9 +3,9 @@ package curso.dio.mockito;
 import java.time.LocalDate;
 
 public class CadastrarPessoa {
-    private ApiDosCorreios apiDosCorreios;
+    private ApidosCorreios apiDosCorreios;
 
-    public CadastrarPessoa(final ApiDosCorreios apiDosCorreios) {
+    public CadastrarPessoa(final ApidosCorreios apiDosCorreios) {
         this.apiDosCorreios = apiDosCorreios;
     }
 
