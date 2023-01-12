@@ -11,7 +11,7 @@ public class TestarConexao {
         BancoDeDados.iniciarConexao();
     }
 
-    // O Each determina que a cada teste ele vai realizar essa ação 
+    // O Each determina que a cada teste ele vai realizar essa ação
     @BeforeEach
     void insereDados() {
         BancoDeDados.inserirDados(new Pessoa("Thais", LocalDate.of(2002,02,04)));
