@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="curso.dio.mockito.ListaTeste" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-12T01:56:41" hostname="DESKTOP-MT51TTN" time="0.722">
+  <properties/>
+  <testcase name="adicionarItem()" classname="curso.dio.mockito.ListaTeste" time="0.722"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
