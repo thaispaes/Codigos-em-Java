@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="curso.dio.mockito.MensagemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-13T11:21:39" hostname="DESKTOP-MT51TTN" time="0.624">
+<testsuite name="curso.dio.mockito.MensagemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-13T11:29:36" hostname="DESKTOP-MT51TTN" time="0.616">
   <properties/>
-  <testcase name="verificarComportamento()" classname="curso.dio.mockito.MensagemTest" time="0.624"/>
+  <testcase name="verificarComportamento()" classname="curso.dio.mockito.MensagemTest" time="0.616"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
