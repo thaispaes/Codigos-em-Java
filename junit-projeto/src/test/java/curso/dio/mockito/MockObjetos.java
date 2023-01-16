@@ -52,5 +52,5 @@ public class MockObjetos {
         Assertions.assertThrows(RuntimeException.class, () -> cadastrarPessoa.cadastrarPessoa("José", "28578527976", LocalDate.of(1947, 1, 15), "69317300"));
     }
 
-    
+
 }

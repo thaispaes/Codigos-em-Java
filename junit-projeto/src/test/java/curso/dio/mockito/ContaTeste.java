@@ -38,4 +38,10 @@ public class ContaTeste {
         Mockito.verify(conta, Mockito.times(4)).validaSaldo(ArgumentMatchers.anyInt());
     }
 
+    @Test
+    void trueValidacaoSaldo() {
+        Mockito.doNothing().when(conta).validaSaldo(ArgumentMatchers.anyInt());
+        conta.validaSaldo(3_500);
+    }
+
 }
