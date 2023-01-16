@@ -41,4 +41,16 @@ public class MockObjetos {
     }
 
 
+    @Test
+    void vexceptionApiDosCorreios() {
+        Mockito.when(apidosCorreios.buscaDadosComBaseNoCep(anyString())).thenThrow(RuntimeException.class);
+        /* Outra opção
+        Mockito.doThrow(IllegalArgumentException.class)
+        .when(apidosCorreios)
+                .buscaDadosComBaseNoCep(anyString())
+        */
+        Assertions.assertThrows(RuntimeException.class, () -> cadastrarPessoa.cadastrarPessoa("José", "28578527976", LocalDate.of(1947, 1, 15), "69317300"));
+    }
+
+    
 }
